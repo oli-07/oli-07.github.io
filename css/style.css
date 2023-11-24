@@ -1,0 +1,213 @@
+:root {
+    --black: #000;
+    --white: #fff;
+    --gray: #ccc;
+    --light-gray: #f5f5f5;
+    --dark-gray: #333;
+    --red: #ff0000;
+    --green: #00ff00;
+    --blue: #0000ff;
+    --yellow: #ffff00;
+    --orange: #ffa500;
+    --purple: #800080;
+    --pink: #ffc0cb;
+    --brown: #a52a2a;
+    --light-blue: #add8e6;
+    --light-green: #90ee90;
+    --light-yellow: #ffffe0;
+    --light-orange: #ffebcd;
+    --light-purple: #e6e6fa;
+    --light-pink: #ffb6c1;
+    --light-brown: #f4a460;
+    --dark-blue: #00008b;
+    --dark-green: #006400;
+    --dark-yellow: #808000;
+    --dark-orange: #ff8c00;
+    --dark-purple: #4b0082;
+    --dark-pink: #ff1493;
+    --dark-brown: #8b4513;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --breakpoint-xxl: 1400px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.25rem;
+    --font-size-sm: 0.875rem;
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+    --font-weight-bolder: 900;
+    --line-height-base: 1.5;
+    --h1-font-size: 2.5rem;
+    --h2-font-size: 2rem;
+    --h3-font-size: 1.75rem;
+    --h4-font-size: 1.5rem;
+    --h5-font-size: 1.25rem;
+    --h6-font-size: 1rem;
+    --border-width: 1px;
+    --border-color: #dee2e6;
+    --border-radius: 0.25rem;
+    --border-radius-lg: 0.3rem;
+    --border-radius-sm: 0.2rem;
+    --box-shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    --box-shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    --box-shadow-inset: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+    --transition-base: all 0.2s ease-in-out;
+    --transition-fade: opacity 0.15s linear;
+    --transition-collapse: height 0.35s ease;
+    --transition-colors: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    --transition-transform: transform 0.2s ease-in-out;
+    --transition: all 0.2s ease-in-out;
+    --border-primary: #007bff;
+    --border-secondary: #6c757d;
+    --border-success: #28a745;
+    --border-info: #17a2b8;
+    --border-warning: #ffc107;
+    --border-danger: #dc3545;
+    --border-light: #f8f9fa;
+    --border-dark: #343a40;
+    --border-white: #fff;
+    --border-0: 0;
+    --border-1: 1px solid #dee2e6;
+    --border-2: 2px solid #dee2e6;
+    --border-3: 3px solid #dee2e6;
+    --border-4: 4px solid #dee2e6; 
+    --border-top-0: border-top-width: 0;
+    --border-right-0: border-right-width: 0;
+    --border-bottom-0: border-bottom-width: 0;
+    --border-left-0: border-left-width: 0;
+    --border-top-1: border-top-width: 1px;
+    --border-right-1: border-right-width: 1px;
+    --border-bottom-1: border-bottom-width: 1px;
+    --border-left-1: border-left-width: 1px;
+    --border-top-2: border-top-width: 2px;
+    --border-right-2: border-right-width: 2px;
+    --border-bottom-2: border-bottom-width: 2px;
+    --border-left-2: border-left-width: 2px;
+    --border-top-3: border-top-width: 3px;
+    --border-right-3: border-right-width: 3px;
+    --border-bottom-3: border-bottom-width: 3px;
+    --border-left-3: border-left-width: 3px;
+    --border-top-4: border-top-width: 4px;
+    --border-right-4: border-right-width: 4px;
+    --border-bottom-4: border-bottom-width: 4px;
+    --border-left-4: border-left-width: 4px;
+    --border-radius: 0.25rem;
+    --border-radius-lg: 0.3rem;
+    --border-radius-sm: 0.2rem;
+    --border-radius-0: 0;
+    --border-radius-1: 0.2rem;
+    --border-radius-2: 0.25rem;
+    --border-radius-3: 0.3rem;
+    --border-radius-pill: 50rem;
+    --border-radius-top-0: border-top-left-radius: 0; border-top-right-radius: 0;
+    --border-radius-top-1: border-top-left-radius: 0.2rem; border-top-right-radius: 0.2rem;
+    --border-radius-top-2: border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem;
+    --border-radius-top-3: border-top-left-radius: 0.3rem; border-top-right-radius: 0.3rem;
+    --border-radius-top-pill: border-top-left-radius: 50rem; border-top-right-radius: 50rem;
+    --border-radius-right-0: border-top-right-radius: 0; border-bottom-right-radius: 0;
+    --border-radius-right-1: border-top-right-radius: 0.2rem; border-bottom-right-radius: 0.2rem;
+    --border-radius-right-2: border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem;
+    --border-radius-right-3: border-top-right-radius: 0.3rem; border-bottom-right-radius: 0.3rem;
+    --border-radius-right-pill: border-top-right-radius: 50rem; border-bottom-right-radius: 50rem;
+    --border-radius-bottom-0: border-bottom-right-radius: 0; border-bottom-left-radius: 0;
+    --border-radius-bottom-1: border-bottom-right-radius: 0.2rem; border-bottom-left-radius: 0.2rem;
+    --border-radius-bottom-2: border-bottom-right-radius: 0.25rem; border-bottom-left-radius: 0.25rem;
+    --border-radius-bottom-3: border-bottom-right-radius: 0.3rem; border-bottom-left-radius: 0.3rem;
+    --border-radius-bottom-pill: border-bottom-right-radius: 50rem; border-bottom-left-radius: 50rem;
+    --border-radius-left-0: border-top-left-radius: 0; border-bottom-left-radius: 0;
+    --border-radius-left-1: border-top-left-radius: 0.2rem; border-bottom-left-radius: 0.2rem;
+    --border-radius-left-2: border-top-left-radius: 0.25rem; border-bottom-left-radius: 0.25rem;
+    --border-radius-left-3: border-top-left-radius: 0.3rem; border-bottom-left-radius: 0.3rem;
+    --border-radius-left-pill: border-top-left-radius: 50rem; border-bottom-left-radius: 50rem;
+}
+
+body {
+    font-family: var(--font-family-sans-serif);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-normal);
+    line-height: var(--line-height-base);
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.navbar {
+    background-color: var(--primary);
+    color: var(--white);
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    margin: 0 auto;
+    border-bottom: 3px solid var(--light-blue);
+}
+
+#home-btn {
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--white);
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+#home-btn:hover {
+    color: var(--light-blue);
+    transition-duration: 0.5s;
+}
+
+#home-btn::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: var(--white);
+    transition: width .3s;
+}
+
+#home-btn:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--white);
+    text-decoration: none;
+    transition-duration: 0.5s;
+    padding: 0 1rem;
+}
+
+.nav-link:hover {
+    color: var(--light-blue);
+    transition-duration: 0.5s;
+}
+
+#main-header {
+    
+}
