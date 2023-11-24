@@ -1,0 +1,36 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    /* Create a responsive grid of 2*x */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    padding: 1rem;
+    margin: 0 auto;
+    width: 40%;
+    height: 60%;
+}
+
+.project-info {
+    border-radius: 5px;
+    border: 5px solid #000000;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.project-page-img {
+    width: 100%;
+    height: 45%;
+    margin: 0 auto;
+    display: block;
+    object-fit: cover;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+}
+
+.project-page-img:hover {
+    opacity: 0.5;
+    transition-duration: 0.3s;
+}
