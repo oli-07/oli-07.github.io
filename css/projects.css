@@ -4,10 +4,13 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    /* Create a responsive grid of 2*x */
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 1rem;
     padding: 1rem;
+    margin: 0 auto;
+}
+
+.project {
     margin: 0 auto;
     width: 40%;
     height: 60%;
@@ -26,11 +29,12 @@
     margin: 0 auto;
     display: block;
     object-fit: cover;
-    transition-duration: 0.3s;
+    transition-duration: 0.75s;
     border-radius: 5px;
+    filter: grayscale(100%);
 }
 
 .project-page-img:hover {
-    opacity: 0.5;
-    transition-duration: 0.3s;
+    filter: grayscale(0%);
+    transition-duration: 0.75s;
 }
