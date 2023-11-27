@@ -323,6 +323,10 @@ body {
     padding: 0;
 }
 
+#projects-container {
+    flex-direction: row-reverse;
+}
+
 .about-text {
     display: flex;
     justify-content: center;
