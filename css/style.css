@@ -372,6 +372,10 @@ body {
         width: 100%;
     }
 
+    #projects-container {
+        flex-direction: column;
+    }
+
     #software-img {
         float: none;
         margin: 0;
