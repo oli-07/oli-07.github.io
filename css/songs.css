@@ -1,0 +1,65 @@
+body {
+    transition-duration: 0.5s;
+}
+
+h1, h2 {
+    transition-duration: 0.5s;
+    margin: 0;
+}
+
+.song-selector {
+    width: 100vw;
+    transition-duration: 0.5s;
+    margin: 0 auto 3vh auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.song-input {
+    width: 75vw;
+    transition-duration: 0.5s;
+    margin: 0 auto 1vh auto;
+    text-align: center;
+    border-radius: 0.2rem;
+    border: 0.1rem solid black;
+    text-emphasis: bold;
+}
+
+.submit-button {
+    width: 25vw;
+    transition-duration: 0.5s;
+    margin: 0 auto;
+    border-radius: 0.2rem;
+    border: 0.1rem solid black;
+    text-emphasis: bold;
+}
+
+.submit-button:hover {
+    background-color: #e6e6e6;
+    transition-duration: 0.5s;
+}
+
+.song {
+    width: 100vw;
+    transition-duration: 0.5s;
+}
+
+.music-video {
+    aspect-ratio: 16/9;
+    width: 65vw;
+    transition-duration: 0.5s;
+    border: 0.1rem solid black;
+    margin: 0 auto;
+    border-radius: 0.2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .music-video {
+        width: 95vw;
+        transition-duration: 0.5s;
+    }
+}
